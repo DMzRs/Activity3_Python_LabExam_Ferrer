@@ -83,7 +83,7 @@ while running:
             print("Item name cannot be empty.")
             continue
         try:
-            amount = int(input("Enter quantity to add: ").strip())
+            amount = int(input("Enter new quantity: ").strip())
         except ValueError:
             print("Invalid quantity. Please enter a number.")
             continue
